@@ -1,0 +1,40 @@
+html { 
+    scroll-behavior: smooth; 
+}
+
+.icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: .75rem;
+}
+
+.active:hover {
+    background-color: #FEDA75;
+    transform: scale(1.2);
+}
+
+.nav-item {
+    transform: scale(1.0);
+}
+
+.icon-item svg {
+    width: 32px;
+    height: 32px;
+    transition: transform 0.3s ease;
+}
+
+.icon-item:hover svg {
+  transform: scale(1.2); 
+}
+
+.instagram-icon {
+    background: linear-gradient(45deg, #E1306C, #FCAF45);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    fill: transparent;
+}
+
+.instagram-icon:hover {
+  background: linear-gradient(45deg, #C13584, #FEDA75);
+}
